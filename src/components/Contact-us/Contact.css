@@ -1,0 +1,109 @@
+
+.Contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+.Contact::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    opacity: .7;
+}
+.Contact-img {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/020/445/161/large/yuriy-kulikov-.jpg?1567786715");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+.media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 11;
+}
+
+.one-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    z-index: 11;
+}
+.one-item i {
+    font-size: 50px;
+    background-color: #0f9ed799;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);    */
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.Contact h2 {
+    font-size: 40px;
+    z-index: 11;
+}
+
+.Contact h1 {
+    font-size: 50px;
+    margin-bottom: 20Px;
+    z-index: 11;
+}
+
+.Contact > p {
+    font-size: 19px;
+    color: rgb(172, 172, 172);
+    z-index: 11;
+}
+.soc {
+    font-weight: bolder;
+    font-size: 19px;
+}
+.advice {
+    color: rgb(172, 172, 172);
+}
+
+@media (max-width: 600px) {
+    .Contact {
+        width: 100%;
+        height: 100%;
+    }
+    .media {
+        flex-wrap: wrap;
+    }
+    .one-item{
+        margin: 15px;
+    }
+    .one-item i {
+        font-size: 40px ;
+    }
+    .Contact h2 {
+        font-size: 40px;
+        margin: 20px 0px;
+
+    }
+}
+
+
+.Contact {
+
+}
