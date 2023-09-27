@@ -97,11 +97,28 @@
     margin: 10px;
     border-radius: 10px;
 }
+
 .capitalized-text {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-hero-display-data  {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.parag-hero-sec{
+    color: white;
+    font-size: 20px;
+    font-weight: 400  !important;
+    
 }
 
 @media (max-width: 600px) {

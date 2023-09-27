@@ -21,13 +21,16 @@
     background-color: #fff;
 
 }
+.team h1 {
+    color: #004289;
+}
 
 .contenair{
     width:350px;
     height: 270px;
     overflow: hidden;
-    
 }
+
 .team img {
     border-radius: 10px;
     width: 100%;

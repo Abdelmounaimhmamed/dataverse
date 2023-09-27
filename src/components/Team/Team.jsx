@@ -19,17 +19,17 @@ const MyComponent = () => {
     const data = [
         {id: 2 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
         {id: 3 , role : "Vice President" , name: "Saad Fettah" , img: "saad.jpeg"},
-        {id: 4 , role : "Cellule Competition" , name: "Abdelmounaim hmamed" , img: "abdelmounaim.jpeg"},
+        {id: 4 , role : "Cellule Competition" , name: "Abdelmounaim Hmamed" , img: "abdelmounaim.jpeg"},
         {id: 5 , role : "Vice Cellule Competition" , name: "Salma Faraj" , img: "salma.jpeg"},
-        {id: 6 , role : "Cellule Logistique" , name: "Oussama hassnaoui " , img: "oussama.jpeg"},
+        {id: 6 , role : "Cellule Logistique" , name: "Oussama Hassnaoui " , img: "oussama.jpeg"},
         {id: 7 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
-        {id: 8 , role : "Cellule Media" , name: "Oumaima karkaba" , img: "oumaima.jpeg"},
+        {id: 8 , role : "Cellule Media" , name: "Oumaima Karkba" , img: "oumaima.jpeg"},
         {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
         {id: 10 , role : "Cellule Sponsoring" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
-        {id: 11 , role : "Cellule Sponsoring" , name: "salma benaroub" , img: "benaroub.jpeg"},
+        {id: 11 , role : "Cellule Sponsoring" , name: "salma Benaroub" , img: "benaroub.jpeg"},
         {id: 12 , role : "Cellule Divertissment" , name: "khadija Assag" , img: "khadija.jpeg"},
-        {id: 13 , role : "Cellule Exposition" , name: "Zainab raoui" , img: "zineb.png"},
-        {id: 14 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
+        {id: 13 , role : "Cellule Exposition" , name: "Zainab Raoui" , img: "zineb.png"},
+        {id: 14 , role : "President" , name: "Reda Agbalou" , img: "reda.jpeg"},
 
     ];
  
@@ -44,9 +44,9 @@ const MyComponent = () => {
         autoplaySpeed={10}
         speed={5}
         smartSpeed={true}
-        onReady={() => console.log('I am ready')}
+        onReady={() => console.log('')}
       >
-        {/* [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] */}
+        
         <Zoom bottom >
             {data.map((item) => (
             <div key={item.id} className='item' >

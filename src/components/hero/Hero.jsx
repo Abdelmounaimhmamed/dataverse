@@ -25,10 +25,10 @@ const Hero = () => {
             <div className='social-hero-section'>
                 <Zoom left cascade duration={1000}>
                     <div className='social-hero-display'>
-                            <a href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-instagram'></i></a>
-                            <a href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-envelope'></i></a>
-                            <a href='https://www.linkedin.com/company/dataverse1/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-linkedin'></i></a>
-                            <a href='https://www.facebook.com/dataverse1.0' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-facebook'></i></a>
+                            <a  href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-instagram'></i></a>
+                            <a  href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-envelope'></i></a>
+                            <a  href='https://www.linkedin.com/company/dataverse1/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-linkedin'></i></a>
+                            <a  href='https://www.facebook.com/dataverse1.0' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-facebook'></i></a>
                     </div>
                 </Zoom>
             </div>
@@ -36,16 +36,19 @@ const Hero = () => {
         <Zoom bottom left>
             <div className="component">
                 <div className='d-flex flex-column justify-content-center align-items-center'>
+                    <h1> Data Science Et Digitalisation</h1>
+                    <p style={{fontSize:"30px" }}></p>
                     <h1 className='capitalized'  id="typewriter">
                         <Typewriter  
                             className="capitalized-text"
                             options={{
-                                strings: [' Data Science Et Digitalisation  ','Une Nouvelle Ére' ],
+                                strings: [' Une Nouvelle Ére'],
                                 autoStart: true,
                                 loop: true,
                             }}
                         />
                    </h1>
+                   <p className='parag-hero-sec'>Ensemble pour réunir les passionés du monde des données .</p>                   
                    <a href='#about' className='click-me'> See more </a>
                 </div>
             </div>

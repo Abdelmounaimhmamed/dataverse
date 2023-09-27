@@ -2,7 +2,7 @@ import React from 'react'
 import "./box.css";
 
 const Box = ({items}) => {
-    const {id , icon,title,subOne,paragraph} = items;
+    const {id , icon,title,paragraph} = items;
     
   return (
     <div className='box'>

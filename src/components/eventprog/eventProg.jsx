@@ -10,7 +10,8 @@ const EventProg = () => {
         {id: 1 , time: "8:30 - 9:00" , subject : "Accueil des invites"},
         {id: 2 , time: "8:31 - 9:00" , subject : "Accueil des invites"},
         {id: 3 , time: "8:31 - 9:00" , subject : "Accueil des invites"},
-    ]
+    ];
+
   return (
     <>
       <Navbar />
@@ -20,7 +21,6 @@ const EventProg = () => {
           <ProgramItem />
           <ProgramItemV2 />
       </div>
-  
     </>
   )
 }

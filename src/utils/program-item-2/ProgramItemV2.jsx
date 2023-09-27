@@ -4,7 +4,8 @@ import { Zoom } from 'react-reveal'
 const ProgramItemV2 = () => {
   return (
     <div className='prog-day-1'>
-    <h1> Program Day-2 </h1>
+    <h1> Day-2 </h1>
+    <h1> 22/11/2023 </h1>
     <div className='holder'>
     <Zoom bottom cascade duration={1200}>
     <div className='sub-holder'>
