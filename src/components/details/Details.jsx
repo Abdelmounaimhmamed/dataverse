@@ -1,7 +1,7 @@
 import React  from 'react'
 import "./Details.css";
 import { Zoom } from 'react-reveal';
-
+import video from "./video.mp4";
 
 
 const Details = () => {
@@ -26,8 +26,11 @@ const Details = () => {
                       <div class="video-container">
                         {/* <video width={"560"} height={"315"} src='video.mp4' autoPlay autoSave='true'>
                         </video> */}
-                        <video className="frame"  width="560" height="315"  controls autoPlay >
+                        {/* <video className="frame"  width="560" height="315"  controls >
                           <source src="video.mp4" type="video/mp4"></source>
+                        </video> */}
+                        <video width="560" height="315"  controls="controls" autoplay="true" className='frame'>
+                            <source type="video/mp4" src="video.mp4" />
                         </video>
                         {/* <iframe className='frame'  width="560" height="315" src="https://www.youtube.com/embed/DRTVAQZL_Ms?si=0q-UFpr5aaNEL1ep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                       </div>
