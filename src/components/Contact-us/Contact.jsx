@@ -22,17 +22,23 @@ const Contact = () => {
                 <p className='advice'>Be Our Friend</p>
             </div>
             <div className='one-item'>
-                <i className='fa fa-solid fa-instagram'></i>
+                <a href='https://www.instagram.com/data.verse2.0/' target='_blank'>
+                    <i className='fa fa-solid fa-instagram'></i>
+                </a>
                 <p className='soc'>Instagram</p>
                 <p className='advice'>Connect with Us </p>
             </div>
             <div className='one-item'>
-                <i className='fa fa-solid fa-linkedin'></i>
+                <a href='https://www.linkedin.com/company/dataverse1/' target='_blank'>
+                    <i className='fa fa-solid fa-linkedin'></i>
+                </a>
                 <p className='soc'>Linkedin</p>
                 <p className='advice'>See Our Pictures</p>
             </div>
             <div className='one-item'>
-                <i class="fa-solid fa-envelope"></i>
+                <a href=''>
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
                 <p className='soc'>Email</p>
                 <p className='advice'>Contact Us</p>
             </div>

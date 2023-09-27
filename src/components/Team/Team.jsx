@@ -9,7 +9,7 @@ const MyComponent = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setRenderComponent(true);
-    }, 2000); 
+    }, 2500); 
 
     return () => {
       clearTimeout(timer); 
@@ -26,8 +26,8 @@ const MyComponent = () => {
         {id: 8 , role : "Cellule Media" , name: "Oumaima karkaba" , img: "oumaima.jpeg"},
         {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
         {id: 10 , role : "Cellule Sponsoring" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
-        {id: 11 , role : "Cellule Sponsoring" , name: "salma benaroub" , img: "marouane.jpeg"},
-        {id: 12 , role : "Cellule Relation Public" , name: "khadija Assag" , img: "khadija.jpeg"},
+        {id: 11 , role : "Cellule Sponsoring" , name: "salma benaroub" , img: "benaroub.jpeg"},
+        {id: 12 , role : "Cellule Divertissment" , name: "khadija Assag" , img: "khadija.jpeg"},
         {id: 13 , role : "Cellule Exposition" , name: "Zainab raoui" , img: "zineb.png"},
         {id: 14 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
 

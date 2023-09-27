@@ -65,9 +65,9 @@ const Navbar = () => {
             <div className='showed-sm'>
             <Zoom bottom cascade>
                 <ul className='items-v2'>
-                        <li><a href="">Acceuil</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Team</a></li>
+                        <li><a href="/">Acceuil</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="/team">Team</a></li>
                         <li><a href="/eventProgram">Event Program</a></li>
                         <li><a href="">Contact</a></li>
                 </ul>
