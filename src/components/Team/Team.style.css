@@ -77,8 +77,9 @@
     color: rgb(47, 47, 47);
     font-weight: 500;
 }
-.team-title {
-    color: rgb(145, 44, 44);
+.team .team-title {
+    color: rgb(44, 44, 44);
+    font-weight: 300;
 }
 
 @media (max-width : 500px) {

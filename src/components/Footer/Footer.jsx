@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="d-flex flex-column justify-content-center align-items-center">
               <p className='fs-5 mt-3'>© Dataverse 2.0 2023 Corp. Inc</p>
-              <a href=''  className="text-white text-decoration-none fs-5 " className="custumize">Made with love . by @abdelmounaim_hmamed</a>
+              <a href='https://www.linkedin.com/in/abdelmounaim-hmamed-891503203/'  target='_blanck' className="text-white text-decoration-none fs-5 " className="custumize">Made with love . by @abdelmounaim_hmamed</a>
           </div>
       </Zoom>
     </div>

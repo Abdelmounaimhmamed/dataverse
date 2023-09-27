@@ -16,7 +16,8 @@ const Contact = () => {
             <Zoom bottom >
 
             <div className='one-item'>
-                <i className='fa fa-solid fa-facebook'></i>
+                <a href='https://www.facebook.com/dataverse1.0' target='_blanck'><i className='fa fa-solid fa-facebook'></i></a>
+                
                 <p className='soc'>Facebook</p>
                 <p className='advice'>Be Our Friend</p>
             </div>
