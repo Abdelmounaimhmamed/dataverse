@@ -24,8 +24,12 @@ const Details = () => {
           </Zoom>
             <div className=''>
                       <div class="video-container">
-             
-                        <iframe className='frame'  width="560" height="315" src="https://www.youtube.com/embed/DRTVAQZL_Ms?si=0q-UFpr5aaNEL1ep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        {/* <video width={"560"} height={"315"} src='video.mp4' autoPlay autoSave='true'>
+                        </video> */}
+                        <video className="frame"  width="560" height="315"  controls autoPlay >
+                          <source src="video.mp4" type="video/mp4"></source>
+                        </video>
+                        {/* <iframe className='frame'  width="560" height="315" src="https://www.youtube.com/embed/DRTVAQZL_Ms?si=0q-UFpr5aaNEL1ep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                       </div>
                 </div>
         </div>  

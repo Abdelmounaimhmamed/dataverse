@@ -69,7 +69,7 @@ const Navbar = () => {
                         <li><a href="#about">About</a></li>
                         <li><a href="/team">Team</a></li>
                         <li><a href="/eventProgram">Event Program</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="contact">Contact</a></li>
                 </ul>
             </Zoom>
         </div>

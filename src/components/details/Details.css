@@ -62,7 +62,7 @@
 
 .frame {
     position: relative;
-    z-index: 4;
+    z-index: 16;
 }
 
 @media (max-width:650px) {
