@@ -29,9 +29,10 @@ const Details = () => {
                         {/* <video className="frame"  width="560" height="315"  controls >
                           <source src="video.mp4" type="video/mp4"></source>
                         </video> */}
-                        <video width="560" height="315"  controls="controls" autoplay="true" className='frame'>
-                            <source type="video/mp4" src="video.mp4" />
-                        </video>
+                        {/* <video width="560" height="315"  controls autoplay className='frame'>
+                            <source type="video/mp4" src={"https://develus.vercel.app/IT.mp4"} />
+                        </video> */}
+                          <iframe className='frame'  width="560" height="315" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7105616411288301568?compact=1" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>  
                         {/* <iframe className='frame'  width="560" height="315" src="https://www.youtube.com/embed/DRTVAQZL_Ms?si=0q-UFpr5aaNEL1ep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                       </div>
                 </div>
