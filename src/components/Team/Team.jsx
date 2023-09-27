@@ -25,10 +25,10 @@ const MyComponent = () => {
         {id: 7 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
         {id: 8 , role : "Cellule Media" , name: "Oumaima karkaba" , img: "oumaima.jpeg"},
         {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
-        {id: 10 , role : "Cellule Relation Public" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
-        {id: 11 , role : "Cellule Relation Public" , name: "salma benaroub" , img: "marouane.jpeg"},
+        {id: 10 , role : "Cellule Sponsoring" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
+        {id: 11 , role : "Cellule Sponsoring" , name: "salma benaroub" , img: "marouane.jpeg"},
         {id: 12 , role : "Cellule Relation Public" , name: "khadija Assag" , img: "khadija.jpeg"},
-        {id: 13 , role : "Cellule Relation Public" , name: "Zainab raoui" , img: "zineb.png"},
+        {id: 13 , role : "Cellule Exposition" , name: "Zainab raoui" , img: "zineb.png"},
         {id: 14 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
 
     ];

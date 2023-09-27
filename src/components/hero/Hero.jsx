@@ -40,7 +40,7 @@ const Hero = () => {
                         <Typewriter  
                             className="capitalized-text"
                             options={{
-                                strings: ['Data Science Et Digitalisation : <br/> Une Nouvelle Ére ' ],
+                                strings: [' Data Science Et Digitalisation : ','Une Nouvelle Ére' ],
                                 autoStart: true,
                                 loop: true,
                             }}
