@@ -11,7 +11,7 @@ const About = () => {
     {id: 4 , icon: "fa-solid fa-trophy", title: "Learning and Competing",subOne: "Grow your community",paragraph: "Learning, achieving, competing and demonstrating skills on real-world problems    "}
   ]
   return (
-    <div className='about-section d-flex flex-column justify-content-center align-items-center'>
+    <div className='about-section d-flex flex-column justify-content-center align-items-center' id="about">
         <Zoom bottom >
           {/* something you need */}
             <h1 className=''>Who are we? </h1>

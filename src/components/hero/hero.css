@@ -72,8 +72,31 @@
     background: rgba(47, 46, 125, 0.474);
 }
 
+.social-hero-section {
+    position: absolute;
+    left: 10;
+    top: 50%;
+}
+.social-hero-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.social-item-hero  {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #398bbb;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px) {
     .capitalized {
         font-size: 10px;
+    }
+    .social-hero-section {
+        display: none;
     }
 }

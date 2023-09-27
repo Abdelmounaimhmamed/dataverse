@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ScrollCarousel from 'scroll-carousel-react';
 import "./Team.style.css";
 import { Zoom } from 'react-reveal';
 
 const MyComponent = () => {
+  const [renderComponent, setRenderComponent] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setRenderComponent(true);
+    }, 1000); 
+
+    return () => {
+      clearTimeout(timer); 
+    };
+  }, []);
 
     const data = [
         {id: 2 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
@@ -17,15 +28,17 @@ const MyComponent = () => {
         {id: 10 , role : "Cellule Relation Public" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
         {id: 11 , role : "Cellule Relation Public" , name: "salma benaroub" , img: "marouane.jpeg"},
         {id: 12 , role : "Cellule Relation Public" , name: "khadija Assag" , img: "khadija.jpeg"},
-        {id: 13 , role : "Cellule Relation Public" , name: "Zineb raoui" , img: "zineb.jpeg"},
+        {id: 13 , role : "Cellule Relation Public" , name: "Zainab raoui" , img: "zineb.png"},
         {id: 14 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
 
     ];
  
   return (
-    <div className='team' >
+    <div className='team' id="team">
       <h1>Our Team</h1>
-      <p>"If I have seen further, it is by standing on the shoulders of giants." <span className='zalim'>– Isaac Newton</span></p>
+      <p className='team-title'>"If I have seen further, it is by standing on the shoulders of giants." <span className='zalim'>– Isaac Newton</span></p>
+      {renderComponent ? (
+
       <ScrollCarousel
         autoplay={true}
         autoplaySpeed={10}
@@ -51,6 +64,7 @@ const MyComponent = () => {
             ))}
         </Zoom>
       </ScrollCarousel>
+      ) : ''}
     </div>
   );
 };

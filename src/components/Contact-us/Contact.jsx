@@ -5,7 +5,7 @@ import { Fade, Zoom } from 'react-reveal';
 
 const Contact = () => {
   return (
-    <div className='Contact'>
+    <div className='Contact' id="contact">
         <div className='Contact-img' />
         <Zoom bottom cascade>
             <h2>Get Connected </h2>

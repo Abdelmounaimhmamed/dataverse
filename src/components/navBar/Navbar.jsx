@@ -36,15 +36,15 @@ const Navbar = () => {
         <div className={`Navbar ${isFixed ? 'change-color' : ''}`}>
             <div className=''>
                 <Zoom>
-                    <img  src='Logo.png'  className='styling' alt=''/>
+                    <img  src={`${isFixed ?  'LogoFixed.png' : 'Logo.png'}`}  className='styling' alt=''/>
                     {/* <h1 className='fs-4'>DataVerse</h1> */}
                 </Zoom>
             </div>
             <Fade top cascade>
                 <ul className='items'>
-                    <li><a href="">Acceuil</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Team</a></li>
+                    <li><a href="/">Acceuil</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
                     <li><a href="/eventProgram">Event Program</a></li>
                     <li className='toHoverOn'>
                         <a href='' className='isEdition'>Editions</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 {state === true ? ( <i className="fa-solid fa-bars fa-vars" onClick={handleClick}></i>) : ( <i className="fa-solid fa-xmark fa-vars" onClick={handleClick}></i>)}
                

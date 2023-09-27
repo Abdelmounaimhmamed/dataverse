@@ -12,12 +12,16 @@ const EventProg = () => {
         {id: 3 , time: "8:31 - 9:00" , subject : "Accueil des invites"},
     ]
   return (
-    <div className=''>
-        {/* <Navbar /> */}
-        <img className='image-2' src='data.jpeg' alt=''/>
-        <ProgramItem />
-        <ProgramItemV2 />
-    </div>
+    <>
+      <Navbar />
+      <div className=''>
+          {/* <Navbar /> */}
+          <img className='image-2' src='data.jpeg' alt=''/>
+          <ProgramItem />
+          <ProgramItemV2 />
+      </div>
+  
+    </>
   )
 }
 

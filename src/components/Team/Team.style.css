@@ -19,6 +19,7 @@
     background-color: #fff;
 
 }
+
 .contenair{
     width:350px;
     height: 270px;
@@ -75,6 +76,9 @@
 .parag-4 {
     color: rgb(47, 47, 47);
     font-weight: 500;
+}
+.team-title {
+    color: rgb(145, 44, 44);
 }
 
 @media (max-width : 500px) {
