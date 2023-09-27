@@ -12,7 +12,7 @@ const About = () => {
   ]
   return (
     <div className='about-section d-flex flex-column justify-content-center align-items-center'>
-        <Zoom bottom    >
+        <Zoom bottom >
           {/* something you need */}
             <h1 className=''>Who are we? </h1>
             <p className='parag'>We foster student connections, cultivate their community, and bridge them to the world of Data, enabling collaborations and providing opportunities.</p> 

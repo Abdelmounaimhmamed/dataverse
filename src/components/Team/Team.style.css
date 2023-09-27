@@ -39,6 +39,9 @@
     margin-bottom: 20px;
 }
 
+.data span {
+    color: gray;
+}
 .parag-2  {
     margin-bottom: 10px;
 }
@@ -69,7 +72,10 @@
 .parag-2 {
     font-size: 15px;
 }
-
+.parag-4 {
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+}
 
 @media (max-width : 500px) {
     .team {

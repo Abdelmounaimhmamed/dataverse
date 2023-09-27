@@ -9,8 +9,12 @@ import Team from './components/Team/Team';
 import Details from './components/details/Details';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navBar/Navbar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import EventProg from './components/eventprog/eventProg';
+import { Galerie } from './components/Galerie/Galerie';
 
-function App() {
+const  App  = () =>  {
+  
   return (
     <div className="App">
         <AnimatedCursor
@@ -21,15 +25,25 @@ function App() {
           innerScale={0.7}
           outerScale={5}
         />
-            <Navbar  />
-            <Hero />
-            <About />
-            <Team />
-            <Details />
-            <Sponsor />
-            <Contact />
-            <Map />
-            <Footer /> 
+           
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<>
+                  <Navbar  />
+                  <Hero />
+                  <About />
+                  <Team />
+                  <Details />
+                  <Sponsor />
+                  <Contact />
+                  <Galerie />
+                  <Map />
+                  <Footer /> 
+               </>} />
+                <Route path='/eventProgram' element={<EventProg />}/>
+              </Routes>
+            </BrowserRouter>
+            
     </div>
   );
 }

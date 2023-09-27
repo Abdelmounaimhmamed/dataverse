@@ -58,7 +58,41 @@
 .items-v2 {
     display: none;
 }
+.editions {
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    background-color: rgb(16, 16, 31);
+    margin: 8px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.editions a {
+    font-size: 18px;
+    margin: 7px 0px;
+    font-weight: lighter;
+}
+.composite {
+    display: none;
+    transition: all ease-in .4s;
+}
 
+.isEdition {
+    position: relative;
+}
+.toHoverOn:hover + .composite {
+    display: block;
+}
+.isEdition:hover + .composite {
+    display: block;
+}
+.index { 
+    z-index:100 ;
+    color: white;
+}
 
 @media (max-width:600px) {
     .items {

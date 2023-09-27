@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ScrollCarousel from 'scroll-carousel-react';
 import "./Team.style.css";
 import { Zoom } from 'react-reveal';
@@ -6,18 +6,20 @@ import { Zoom } from 'react-reveal';
 const MyComponent = () => {
 
     const data = [
-        {id: 1 , role : "President" , name: "Reda Agbalou" , img: "saad.jpeg"},
-        {id: 2 , role : "President" , name: "Reda Agbalou" , img: "saad.jpeg"},
+        {id: 2 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
         {id: 3 , role : "Vice President" , name: "Saad Fettah" , img: "saad.jpeg"},
         {id: 4 , role : "Cellule Competition" , name: "Abdelmounaim hmamed" , img: "abdelmounaim.jpeg"},
-        {id: 5 , role : "Cellule Logistique" , name: "Oussama hassnaoui " , img: "oussama.jpeg"},
-        {id: 6 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
-        {id: 7 , role : "Cellule Media" , name: "Oumaima karkaba" , img: "oumaima.jpeg"},
-        {id: 8 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
-        {id: 9 , role : "Cellule Relation Public" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
-        {id: 10 , role : "Cellule Relation Public" , name: "salma benaroub" , img: "marouane.jpeg"},
-        {id: 11 , role : "Cellule Relation Public" , name: "khadija Assag" , img: "khadija.jpeg"},
-        {id: 12 , role : "Cellule Relation Public" , name: "Zineb raoui" , img: "zineb.jpeg"}
+        {id: 5 , role : "Vice Cellule Competition" , name: "Salma Faraj" , img: "salma.jpeg"},
+        {id: 6 , role : "Cellule Logistique" , name: "Oussama hassnaoui " , img: "oussama.jpeg"},
+        {id: 7 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
+        {id: 8 , role : "Cellule Media" , name: "Oumaima karkaba" , img: "oumaima.jpeg"},
+        {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
+        {id: 10 , role : "Cellule Relation Public" , name: "Nisserin Redallah" , img: "nisserine.jpeg"},
+        {id: 11 , role : "Cellule Relation Public" , name: "salma benaroub" , img: "marouane.jpeg"},
+        {id: 12 , role : "Cellule Relation Public" , name: "khadija Assag" , img: "khadija.jpeg"},
+        {id: 13 , role : "Cellule Relation Public" , name: "Zineb raoui" , img: "zineb.jpeg"},
+        {id: 14 , role : "President" , name: "Reda Agbalou" , img: "leda.jpeg"},
+
     ];
  
   return (
@@ -39,9 +41,10 @@ const MyComponent = () => {
                   <img src={item.img}  alt='' className='image-team'  />
               </div>
                 <div className='data'>
-                    <p className='parag-1 parag-2'>{item.role}</p>
+                    <span className='parag-1 parag-2'>{item.role}</span> 
+                    
                     <h3 className='title-name'>{item.name}</h3>
-                    <p className='parag-3'>Data and Software Engineering Student at ENSA Khouribga.</p>
+                    <span className='parag-3 parag-4'>Data and Software Engineering Student at ENSA Khouribga.</span>
                 </div>
               
             </div>

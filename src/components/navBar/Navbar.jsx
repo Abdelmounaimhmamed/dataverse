@@ -45,7 +45,16 @@ const Navbar = () => {
                     <li><a href="">Acceuil</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Team</a></li>
-                    <li><a href="">Event Program</a></li>
+                    <li><a href="/eventProgram">Event Program</a></li>
+                    <li className='toHoverOn'>
+                        <a href='' className='isEdition'>Editions</a>
+                        <div className='composite'>
+                            <div className='editions'>
+                                <a href='index'>Dataverse1.0</a><br/>
+                                <a href='index'>Dataverse2.0</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="">Contact</a></li>
                 </ul>
                 {state === true ? ( <i className="fa-solid fa-bars fa-vars" onClick={handleClick}></i>) : ( <i className="fa-solid fa-xmark fa-vars" onClick={handleClick}></i>)}
@@ -59,7 +68,7 @@ const Navbar = () => {
                         <li><a href="">Acceuil</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Team</a></li>
-                        <li><a href="">Event Program</a></li>
+                        <li><a href="/eventProgram">Event Program</a></li>
                         <li><a href="">Contact</a></li>
                 </ul>
             </Zoom>
