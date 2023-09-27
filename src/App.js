@@ -11,7 +11,6 @@ import Hero from './components/hero/Hero';
 import Navbar from './components/navBar/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import EventProg from './components/eventprog/eventProg';
-import { Galerie } from './components/Galerie/Galerie';
 
 const  App  = () =>  {
   
