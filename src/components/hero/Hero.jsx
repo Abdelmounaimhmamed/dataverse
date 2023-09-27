@@ -25,10 +25,10 @@ const Hero = () => {
             <div className='social-hero-section'>
                 <Zoom left cascade duration={1000}>
                     <div className='social-hero-display'>
-                            <a href='' className='social-item-hero'><i className='fa fa-solid fa-instagram'></i></a>
-                            <a href='' className='social-item-hero'><i className='fa fa-solid fa-envelope'></i></a>
-                            <a href='' className='social-item-hero'><i className='fa fa-solid fa-linkedin'></i></a>
-                            <a href='' className='social-item-hero'><i className='fa fa-solid fa-facebook'></i></a>
+                            <a href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-instagram'></i></a>
+                            <a href='https://www.instagram.com/data.verse2.0/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-envelope'></i></a>
+                            <a href='https://www.linkedin.com/company/dataverse1/' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-linkedin'></i></a>
+                            <a href='https://www.facebook.com/dataverse1.0' target='_blank' className='social-item-hero'><i className='fa fa-solid fa-facebook'></i></a>
                     </div>
                 </Zoom>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
                         <Typewriter  
                             className="capitalized-text"
                             options={{
-                                strings: [' Data Science Et Digitalisation : ','Une Nouvelle Ére' ],
+                                strings: [' Data Science Et Digitalisation  ','Une Nouvelle Ére' ],
                                 autoStart: true,
                                 loop: true,
                             }}

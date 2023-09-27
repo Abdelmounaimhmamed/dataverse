@@ -9,7 +9,7 @@ const MyComponent = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setRenderComponent(true);
-    }, 1000); 
+    }, 2000); 
 
     return () => {
       clearTimeout(timer); 
