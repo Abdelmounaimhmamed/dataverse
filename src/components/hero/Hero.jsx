@@ -36,7 +36,7 @@ const Hero = () => {
         <Zoom bottom left>
             <div className="component">
                 <div className='d-flex flex-column justify-content-center align-items-center'>
-                    <h1> Data Science Et Digitalisation</h1>
+                    <h1 className='agbalou-report'> Data Science Et Digitalisation</h1>
                     <p style={{fontSize:"30px" }}></p>
                     <h1 className='capitalized'  id="typewriter">
                         <Typewriter  
