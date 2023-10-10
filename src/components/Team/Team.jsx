@@ -19,7 +19,7 @@ const MyComponent = () => {
     const data = [
         {id: 2 , role : "President" , name: "Reda Agbalou" , img: "reda.jpeg"},
         {id: 3 , role : "Vice President" , name: "Saad Fettah" , img: "saad.jpeg"},
-        {id: 4 , role : "Cellule Competition" , name: "Abdelmounaim Hmamed" , img: "abdelmounaim.jpg"},
+        {id: 4 , role : "Cellule Competition" , name: "Abdelmounaim Hmamed" , img: "abdelmounaim.jpeg"},
         {id: 5 , role : "Vice Cellule Competition" , name: "Salma Faraj" , img: "salma.jpeg"},
         {id: 6 , role : "Cellule Logistique" , name: "Oussama Hassnaoui " , img: "oussama.jpeg"},
         {id: 7 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
