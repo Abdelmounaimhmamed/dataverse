@@ -25,7 +25,7 @@ const  App  = () =>  {
           outerScale={5}
         />
            
-            <BrowserRouter>
+            <BrowserRouter basename='/react'>
               <Routes>
                 <Route path="/" element={<>
                   <Navbar  />
