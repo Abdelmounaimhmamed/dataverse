@@ -13,11 +13,9 @@ const About = () => {
   return (
     <div className='about-section d-flex flex-column justify-content-center align-items-center' id="about">
         <Zoom bottom >
-          {/* something you need */}
             <h1 className=''>About Us ? </h1>
             <p className='parag'>We foster student connections, cultivate their community, and bridge them to the world of Data, enabling collaborations and providing opportunities.</p> 
         </Zoom>
-
         <div className='box-components d-flex flex-row justify-content-center align-items-center flex-wrap'>
           <Zoom bottom  duration={1500} >
             <Box items={data[0]} />       

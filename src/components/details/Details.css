@@ -1,4 +1,3 @@
-/* https://media.istockphoto.com/id/1407983911/fr/photo/diagrammes-forex-et-lignes-de-hausse-du-march%C3%A9-boursier-avec-des-chiffres.jpg?s=612x612&w=0&k=20&c=N5vW9yjK8fU4b9q9k9WlGlmxmoDV5eIZfIDPeg61K7U= */
 
 .Details {
     width: 100%;
@@ -65,7 +64,7 @@
     z-index: 16;
 }
 
-@media (max-width:650px) {
+@media (max-width:1300px) {
     .Details {
         flex-wrap: wrap;
         width: 100%;
@@ -78,13 +77,21 @@
         text-align: justify;
     }
     .video-container iframe {
-        width: 350px;
-        height: 200px;
+        width: 450px;
+        height: 300px;
         margin-bottom: 10px;
     }
     .classif h3 {
         font-size: 30px;
         padding: 10px 0px;
+    }
+}
+
+
+@media(max-width:500px) {
+    .video-container iframe {
+        width: 300px;
+        height: 200px;
     }
 }
 

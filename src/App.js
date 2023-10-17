@@ -25,7 +25,7 @@ const  App  = () =>  {
           outerScale={5}
         />
            
-            <BrowserRouter basename='/react'>
+            <BrowserRouter basename='/dataverse'>
               <Routes>
                 <Route path="/" element={<>
                   <Navbar  />
@@ -34,10 +34,10 @@ const  App  = () =>  {
                   <Team />
                   <Details />
                   <Sponsor />
-                  <Contact />
+                  <Contact />  
                   {/* <Galerie /> */}
-                  <Map />
-                  <Footer /> 
+                   <Map />
+                  <Footer />  
                </>} />
                 <Route path='/eventProgram' element={<EventProg />}/>
               </Routes>
