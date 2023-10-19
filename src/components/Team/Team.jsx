@@ -24,7 +24,7 @@ const MyComponent = () => {
         {id: 6 , role : "Cellule Logistique" , name: "Oussama Hassnaoui " , img: "oussama.jpeg"},
         {id: 7 , role : "Cellule Relation Public" , name: "Houda Boutankhar" , img: "houda.jpeg"},
         {id: 8 , role : "Cellule Media" , name: "Oumaima Karkba" , img: "oumaima.jpeg"},
-        {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpeg"},
+        {id: 9 , role : "Cellule Technique" , name: "Marouane Boufarouj" , img: "marouane.jpg"},
         {id: 10 , role : "Cellule Sponsoring" , name: "Nissrine RIDALLAH" , img: "nisserine.jpeg"},
         {id: 11 , role : "Cellule Sponsoring" , name: "Salma Benaroub" , img: "benaroub.jpeg"},
         {id: 12 , role : "Cellule Divertissment" , name: "khadija Assag" , img: "khadija.jpeg"},

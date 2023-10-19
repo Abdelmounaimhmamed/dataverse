@@ -36,10 +36,12 @@ const  App  = () =>  {
                   <Sponsor />
                   <Contact />  
                   {/* <Galerie /> */}
+                  <Sponsor />
+
+                  <EventProg />
                    <Map />
                   <Footer />  
                </>} />
-                <Route path='/eventProgram' element={<EventProg />}/>
               </Routes>
             </BrowserRouter>
             

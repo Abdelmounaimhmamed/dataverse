@@ -45,7 +45,7 @@ const Navbar = () => {
                     <li><a href="/dataverse">Acceuil</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#team">Team</a></li>
-                    <li><a href="/dataverse/eventProgram">Event Program</a></li>
+                    <li><a href="#event">Event Program</a></li>
                     <li className='toHoverOn'>
                         <a href='' className='isEdition'>Editions</a>
                         <div className='composite'>
@@ -66,8 +66,8 @@ const Navbar = () => {
                 <ul className='items-v2'>
                         <li><a href="/dataverse">Acceuil</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="/team">Team</a></li>
-                        <li><a href="/dataverse/eventProgram">Event Program</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#event">Event Program</a></li>
                         <li><a href="contact">Contact</a></li>
                 </ul>
             </Zoom>

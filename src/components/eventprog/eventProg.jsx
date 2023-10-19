@@ -14,9 +14,7 @@ const EventProg = () => {
 
   return (
     <>
-      <Navbar />
-      <div className=''>
-          {/* <Navbar /> */}
+      <div className='event-blur' id='event'>
           <img className='image-2' src="	https://ensak.usms.ac.ma/dataverse/data.jpeg" alt='image not found'/>
           <ProgramItem />
           <ProgramItemV2 />
