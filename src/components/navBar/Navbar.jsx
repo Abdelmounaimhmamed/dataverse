@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className={`Navbar ${isFixed ? 'change-color' : ''}`}>
             <div className=''>
                 <Zoom>
-                    <img  src={`${isFixed ?  '	https://ensak.usms.ac.ma/dataverse/LogoFixed.png' : 'https://ensak.usms.ac.ma/dataverse/Logo.png'}`}  className='styling' alt=''/>
+                    <img  src={`${isFixed ?  'LogoFixed.png' : 'Logo.png'}`}  className='styling' alt=''/>
                     {/* <h1 className='fs-4'>DataVerse</h1> */}
                 </Zoom>
             </div>

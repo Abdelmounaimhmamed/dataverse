@@ -37,7 +37,6 @@ const  App  = () =>  {
                   <Contact />  
                   {/* <Galerie /> */}
                   <Sponsor />
-
                   <EventProg />
                    <Map />
                   <Footer />  
