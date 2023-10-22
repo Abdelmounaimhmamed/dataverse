@@ -30,6 +30,7 @@ const MyComponent = () => {
         {id: 12 , role : "Cellule Divertissment" , name: "khadija Assag" , img: "khadija.jpeg"},
         {id: 13 , role : "Cellule Exposition" , name: "Zainab Raoui" , img: "zineb.png"},
         {id: 14 , role : "President" , name: "Reda Agbalou" , img: "reda.jpeg"},
+        {id: 15 , role : "Parrain" , name: "Mouna Guerrab" , img: "mouna.jpeg"},
     ];
  
   return (
